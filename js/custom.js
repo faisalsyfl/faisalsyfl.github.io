@@ -40,7 +40,7 @@ $(document).ready(function() {
     $('#register').parallax("100%", 0.1);
     $('#faq').parallax("100%", 0.3);
     $('#venue').parallax("100%", 0.1);
-    $('#sponsors').parallax("100%", 0.3);
+    $('#virtuals').parallax("100%", 0.3);
     $('#contact').parallax("100%", 0.2);
 
   }
@@ -52,7 +52,7 @@ $(document).ready(function() {
   $(document).ready(function() {
     $("#owl-speakers").owlCarousel({
       autoPlay: 6000,
-      items : 4,
+      items : 3,
       itemsDesktop : [1199,2],
       itemsDesktopSmall : [979,1],
       itemsTablet: [768,1],
