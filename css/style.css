@@ -74,7 +74,7 @@ a {
 #journey, 
 #program,
 #virtuals, 
-#contact, {
+#contact {
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
@@ -455,7 +455,7 @@ footer {
 
 #journey .journey-wrapper {
     background: #ffffff;
-    padding: 22px;
+    padding-bottom: 22px;
 }
 
 
