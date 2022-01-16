@@ -61,7 +61,16 @@ $(document).ready(function() {
     });
     $("#owl-journey").owlCarousel({
       autoPlay: 6000,
-      items : 3,
+      items : 4,
+      itemsDesktop : [1199,2],
+      itemsDesktopSmall : [979,1],
+      itemsTablet: [768,1],
+      itemsTabletSmall: [985,2],
+      itemsMobile : [479,1],
+    });
+    $("#owl-bintal").owlCarousel({
+      autoPlay: 6000,
+      items : 4,
       itemsDesktop : [1199,2],
       itemsDesktopSmall : [979,1],
       itemsTablet: [768,1],
