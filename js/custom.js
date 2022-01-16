@@ -39,7 +39,7 @@ $(document).ready(function() {
     $('#program').parallax("100%", 0.2);
     $('#register').parallax("100%", 0.1);
     $('#faq').parallax("100%", 0.3);
-    $('#venue').parallax("100%", 0.1);
+    $('#journey').parallax("100%", 0.1);
     $('#virtuals').parallax("100%", 0.3);
     $('#contact').parallax("100%", 0.2);
 
@@ -51,6 +51,15 @@ $(document).ready(function() {
   -----------------------------------------------*/
   $(document).ready(function() {
     $("#owl-speakers").owlCarousel({
+      autoPlay: 6000,
+      items : 3,
+      itemsDesktop : [1199,2],
+      itemsDesktopSmall : [979,1],
+      itemsTablet: [768,1],
+      itemsTabletSmall: [985,2],
+      itemsMobile : [479,1],
+    });
+    $("#owl-journey").owlCarousel({
       autoPlay: 6000,
       items : 3,
       itemsDesktop : [1199,2],
