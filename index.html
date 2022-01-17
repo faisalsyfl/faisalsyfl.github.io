@@ -73,7 +73,7 @@ http://www.templatemo.com/tm-486-new-event
 				<li><a href="#speakers" class="smoothScroll">Talkshow</a></li>
 				<li><a href="#program" class="smoothScroll">Tentang Kami</a></li>
 				<li><a href="#venue" class="smoothScroll">Our Journey</a></li>
-				<li><button class="btn btn-default" href="#" style="margin-top: 18px; margin-left: 20px;">Exhibition</button></li>
+				<li><button class="btn btn-default" href="#" style="margin-top: 18px; margin-left: 20px;" data-toggle="modal" data-target="#myModal">Exhibition</button></li>
 				<!-- <li><a href="#sponsors" class="smoothScroll">Sponsors</a></li>
 				<li><a href="#contact" class="smoothScroll">Contact</a></li> -->
 				
@@ -153,7 +153,8 @@ http://www.templatemo.com/tm-486-new-event
 			<div class="col-md-12 col-sm-12 wow">
 				<div class="section-title">
 					<h2>Talkshow</h2>
-					<h3>"Empowering Digital Telco from Internet Of Things (IOT)"</h3>
+					<h2 style="margin-bottom: 15px;">"Empowering Digital Telco from Internet Of Things (IOT)"</h2>
+					<div class="badge" style="background-color: white;"><h4 style="color: black; margin-left: 5px; margin-right: 5px;">Dimulai dalam <span id="count"></span></h4></div>
 				</div>
 			</div>
 		</div>
@@ -193,10 +194,7 @@ http://www.templatemo.com/tm-486-new-event
 				</div>				
 			</div>
 		
-			<a href="#" class="btn btn-lg btn-default btn-circle smoothScroll wow fadeInUp" data-wow-delay="1.0s" style="margin-right: 20px; margin-bottom: 20px;"><span class="fa fa-calendar-plus-o" style="margin-right: 15px;"></span>Tambahkan ke Calendar</a>
-
-			<a href="#" class="btn btn-lg btn-primary btn-circle smoothScroll wow fadeInUp" data-wow-delay="1.0s" style="margin-bottom: 20px;"><span class="fa fa-video-camera" style="margin-right: 15px;"></span>Dimulai <span id="count"></span></a>
-		</div>
+			<h4>Gabung Talkshow dengan <button class="btn" style="margin-top: -5px; margin-left: 10px; color: black;">Donasi Sekarang <span class="fa fa-chevron-right" style="margin-left: 10px;"></span></button></h4>
 	</div>
 </section>
 
@@ -526,6 +524,26 @@ http://www.templatemo.com/tm-486-new-event
 	</div>
 </footer>
 
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Invitation Code</h4>
+      </div>
+      <div class="modal-body">
+        <input class="form-control" placeholder="Insert Code Here...">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-dismiss="modal">Submit</button>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 <!-- Back top -->
 <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
