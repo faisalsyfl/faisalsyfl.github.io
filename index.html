@@ -73,7 +73,7 @@ http://www.templatemo.com/tm-486-new-event
 				<li><a href="#speakers" class="smoothScroll">Talkshow</a></li>
 				<li><a href="#program" class="smoothScroll">Tentang Kami</a></li>
 				<li><a href="#venue" class="smoothScroll">Our Journey</a></li>
-				<li><button class="btn btn-default" href="#" style="margin-top: 18px; margin-left: 20px;">Exhibition</button></li>
+				<li><button class="btn btn-default" href="#" style="margin-top: 18px; margin-left: 20px;" data-toggle="modal" data-target="#myModal">Exhibition</button></li>
 				<!-- <li><a href="#sponsors" class="smoothScroll">Sponsors</a></li>
 				<li><a href="#contact" class="smoothScroll">Contact</a></li> -->
 				
@@ -122,75 +122,16 @@ http://www.templatemo.com/tm-486-new-event
 						</div>
 						<div class="col-md-8 col-sm-12 text-left">							
 							<h4 style="line-height: 3.2rem;">Pada akhir tahun 2021 kemarin, Gunung Semeru erupsi mengeluarkan Awan Panas hingga lahar dingin yang menyebabkan hancurnya ratusan bangunan dan merenggut nyawa sejumlah warga. Sampai saat ini, kondisi warga sekitar Gunung Semeru masih belum pulih total dan mem	butuhkan bantuan kita!</h4>
-							<div class="panel">
+							<div class="panel panel-transparent">
 								<div class="panel-body">
-									<h4 style="color: black;">Jumlah Donasi <b>50.000.000</b> / 150.000.000</h4>
+									<h4 style="margin-top: -2px;">Jumlah Donasi <span>50.000.000</span> / 150.000.000</h4>
 									<div class="progress">
 										<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70"
 										aria-valuemin="0" aria-valuemax="100" style="width:70%">
 										</div>
 									</div>
-									<button class="btn btn-yellow">Donasi Sekarang <span class="fa fa-chevron-right"></span></button>
+									<button class="btn btn-yellow" style="margin-top: -5px;">Donasi Sekarang <span class="fa fa-chevron-right" style="margin-left: 10px;"></span></button>
 								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-12">
-				<div class="progress">
-						<div class="one warning-color"></div><div class="two no-color"></div><div class="three no-color"></div><div class="four no-color"></div>
-						<div class="progress-bar progress-bar-warning" style="width: 30%"></div>
-				</div>
-			</div>			
-		</div>
-		<div class="row">
-			<div class="wow fadeInLeft col-md-3 col-sm-4 text-white" data-wow-delay="0.9s">
-				<h3 style="text-align: left;">Rp. 0</h3>
-			</div>
-
-			<div class="wow fadeInUp col-md-3 col-sm-4 text-white" data-wow-delay="0.3s">
-				<h3 style="text-align: left;">Rp. 50.000.000</h3>
-			</div>
-
-			<div class="wow fadeInUp col-md-3 col-sm-4 text-white" data-wow-delay="0.6s">
-				<h3 style="text-align: right;">Rp. 100.000.000</h3>
-			</div>
-
-			<div class="wow fadeInRight col-md-3 col-sm-4 text-white" data-wow-delay="0.9s">
-				<h3 style="text-align: right; right: 30px;">Rp. 150.000.000</h3>
-			</div>
-			
-		</div>
-		<div class="row text-center">
-			<div class="col-md-6">
-				<div class="panel panel-default text-black" style="margin-top: 40px;">
-					<div class="panel-body">
-						<div class="row">
-							<div class="col-md-4">
-								<img src="images/bni.png" style="margin-bottom: -25px; height: 80px; margin-top: 10px;">
-							</div>
-							<div class="col-md-8">
-								<h4>1322552314</h4>
-								<p>Lona Delviari</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="panel panel-default text-black" style="margin-top: 40px;">
-					<div class="panel-body">
-						<div class="row">
-							<div class="col-md-4">
-								<img src="images/linkaja.png" style="margin-bottom: -25px; height: 80px; margin-top: 10px;">
-							</div>
-							<div class="col-md-8">
-								<h4>085265410865</h4>
-								<h5>Lona Delviari</h5>
 							</div>
 						</div>
 					</div>
@@ -212,7 +153,8 @@ http://www.templatemo.com/tm-486-new-event
 			<div class="col-md-12 col-sm-12 wow">
 				<div class="section-title">
 					<h2>Talkshow</h2>
-					<h3>"Empowering Digital Telco from Internet Of Things (IOT)"</h3>
+					<h2 style="margin-bottom: 15px;">"Empowering Digital Telco from Internet Of Things (IOT)"</h2>
+					<div class="badge" style="background-color: white;"><h4 style="color: black; margin-left: 5px; margin-right: 5px;">Dimulai dalam <span id="count"></span></h4></div>
 				</div>
 			</div>
 		</div>
@@ -252,10 +194,7 @@ http://www.templatemo.com/tm-486-new-event
 				</div>				
 			</div>
 		
-			<a href="#" class="btn btn-lg btn-default btn-circle smoothScroll wow fadeInUp" data-wow-delay="1.0s" style="margin-right: 20px; margin-bottom: 20px;"><span class="fa fa-calendar-plus-o" style="margin-right: 15px;"></span>Tambahkan ke Calendar</a>
-
-			<a href="#" class="btn btn-lg btn-primary btn-circle smoothScroll wow fadeInUp" data-wow-delay="1.0s" style="margin-bottom: 20px;"><span class="fa fa-video-camera" style="margin-right: 15px;"></span>Dimulai <span id="count"></span></a>
-		</div>
+			<h4>Gabung Talkshow dengan <button class="btn" style="margin-top: -5px; margin-left: 10px; color: black;">Donasi Sekarang <span class="fa fa-chevron-right" style="margin-left: 10px;"></span></button></h4>
 	</div>
 </section>
 
@@ -585,6 +524,26 @@ http://www.templatemo.com/tm-486-new-event
 	</div>
 </footer>
 
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Invitation Code</h4>
+      </div>
+      <div class="modal-body">
+        <input class="form-control" placeholder="Insert Code Here...">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-dismiss="modal">Submit</button>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 <!-- Back top -->
 <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
