@@ -18,6 +18,7 @@ http://www.templatemo.com/tm-486-new-event
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/owl.theme.css">
 	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="js/noty/noty.css">
 
 	<!-- Main css -->
 	<link rel="stylesheet" href="css/style.css">
@@ -120,9 +121,9 @@ http://www.templatemo.com/tm-486-new-event
 					<div class="section-title">
 						<h2>Charity</h2>
 						<hr>
-						<div class="row">
+						<div class="row" style="margin-top:60px;">
 							<div class="col-md-4 col-sm-12">
-								<img src="images/semeru.jpg" class="img-responsive" style="margin-top: 15px;">
+								<iframe width="185" height="320" src="https://www.youtube.com/embed/yCdgjj-VNG4?autoplay=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
 							<div class="col-md-8 col-sm-12 text-left">
 								<h5 style="line-height: 3.2rem; font-weight: normal;">Pada akhir tahun 2021 kemarin,
@@ -427,10 +428,11 @@ http://www.templatemo.com/tm-486-new-event
 	<script src="js/smoothscroll.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/custom.js"></script>
+	<script src="js/noty/noty.js" type="text/javascript"></script>
 
 	<script>
 		// Set the date we're counting down to
-		var countDownDate = new Date("Feb 29, 2022 10:00:00").getTime();
+		var countDownDate = new Date("Jan 30, 2022 10:00:00").getTime();
 
 		// Update the count down every 1 second
 		var x = setInterval(function () {
@@ -448,8 +450,8 @@ http://www.templatemo.com/tm-486-new-event
 			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 			// Output the result in an element with id="count"
-			document.getElementById("count").innerHTML = days + "H : " + hours + "J : "
-				+ minutes + "M : " + seconds + "D";
+			document.getElementById("count").innerHTML = days + "D : " + hours + "H : "
+				+ minutes + "M : " + seconds + "S";
 
 			// If the count down is over, write some text 
 			if (distance < 0) {
