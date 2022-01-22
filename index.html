@@ -63,7 +63,7 @@ http://www.templatemo.com/tm-486-new-event
 					<span class="icon icon-bar"></span>
 					<span class="icon icon-bar"></span>
 				</button>
-				<a href="#" class="navbar-brand d-flex d-flex-inline" style="display:inline-flex;">
+				<a href="index.html" class="navbar-brand d-flex d-flex-inline" style="display:inline-flex;">
 					<img class="nav-logo" src="images/head_garda.png" style="height: 29px; margin-right: 10px;" alt="">
 					<span>GARDA</span>
 				</a>
@@ -75,11 +75,14 @@ http://www.templatemo.com/tm-486-new-event
 					<li><a href="#intro" class="smoothScroll">Home</a></li>
 					<li><a href="#overview" class="smoothScroll">Charity</a></li>
 					<li><a href="#speakers" class="smoothScroll">Talkshow</a></li>
+					<li><a href="#exhibition" class="smoothScroll">Exhibition</a></li>
 					<li><a href="#program" class="smoothScroll">About</a></li>
 					<li><a href="#journey" class="smoothScroll">Our Journey</a></li>
-					<!-- <li><button class="btn btn-default" href="#" style="margin-top: 18px; margin-left: 20px;"
-							data-toggle="modal" data-target="#myModal">Exhibition</button>
-					</li> -->
+					<li>
+						<!-- <a class="btn btn-default" href="#journey" class="smoothScroll" style="margin-top: 18px; margin-left: 20px;">Exhibitiony</a> -->
+						<button class="btn btn-default" href="#" style="margin-top: 18px; margin-left: 20px;"
+							data-toggle="modal" data-target="#myModal">Sign In</button>
+					</li>
 				</ul>
 
 			</div>
@@ -162,14 +165,14 @@ http://www.templatemo.com/tm-486-new-event
 	</section>
 
 
-	<!-- =========================
+<!-- =========================
     SPEAKERS SECTION   
 ============================== -->
 	<section id="speakers" class="parallax-section text-white" style="background-image: url('images/bg3.jpg');">
 		<div class="container">
 			<div class="section-title">
 				<h2>Talkshow</h2>
-				<h3 style="margin-bottom: 15px;"><b>"Digital Financial Literay for Youth."</b> - 30 Januari 2022 via Zoom</h3>
+				<h3 style="margin-bottom: 15px;"><b>"Digital Financial Literacy for Youth."</b> - 30 Januari 2022 via Zoom</h3>
 				<div class="badge" style="background-color: rgba(255, 255, 255, 0.26);">
 					<h4 style="margin-left: 5px; margin-right: 5px; font-weight: normal;">Dimulai dalam
 						<span id="count" style="font-weight: bold;"></span>
@@ -196,8 +199,8 @@ http://www.templatemo.com/tm-486-new-event
 						<img src="images/speakers-img2.jpg" class="img-responsive img-circle"
 							style="margin-bottom: 40px;">
 						<div class="speakers-thumb text-black">
-							<h4>Kennedy Handersen</h4>
-							<h5>Founder of Gatherich</h5>
+							<h4>Ken Handersen</h4>
+							<h5>Founder of Gatherich<br>Qualified Wealth Planner	</h5>
 						</div>
 					</div>
 				</div>
@@ -205,9 +208,25 @@ http://www.templatemo.com/tm-486-new-event
 
 			<div style="display: inline-flex;">
 				<h4 style="margin-top: 17px;">Gabung Talkshow dengan </h4>
-				<button class="btn" style="margin : 10px; color: black; font-weight: bold;"
-					onclick="location.href='charity.html'">Donasi Sekarang <span class="fa fa-chevron-right"
+				<button type="button" class="btn" style="margin : 10px; color: black; font-weight: bold;" data-toggle="modal" data-target="#exampleModal">Daftar Sekarang <span class="fa fa-chevron-right"
 						style="margin-left: 10px;" onclick=""></span></button>
+			</div>
+		</div>
+	</section>
+<!-- =========================
+    Exhibition SECTION   
+============================== -->
+	<section id="exhibition" class="parallax-section text-white" style="background-image: url('images/bg4.jpg');">
+		<div class="container">
+			<div class="section-title">
+				<h2>Exhibition</h2>
+				<h3 style="margin-bottom: 2px;">Hadiri Exhibition dari 33 Kelompok terbaik GPTP 14</h3>
+			</div>
+			<div class="row">
+				<img class="img-responsive center-block" style="height: 550px;" src="images/Exhbition.png" alt="">
+			</div>
+			<div style="display: inline-flex;">
+				<button type="button" class="btn" style="margin : 10px; color: black; font-weight: bold;" data-toggle="modal" data-target="#myModal">Eksplor Exhibition </button>
 			</div>
 		</div>
 	</section>
@@ -373,13 +392,13 @@ http://www.templatemo.com/tm-486-new-event
 	<!-- =========================
     FOOTER SECTION   
 ============================== -->
-		<footer style="background-color: #456adc;">
+		<footer style="background-color: #020C3D;">
 			<div class="container">
 				<div class="row" style="padding-top: 20px; padding-bottom: 20px;">
 					<div class="col-md-12 col-sm-12">
-						<p class="wow fadeInUp text-white" data-wow-delay="0.6s">Copyright &copy; 2022 - <b>Great People
-								Trainee Program XIV</b><br>
-							Web Developer & Web Design Team
+						<p class="wow fadeInUp text-white" data-wow-delay="0.6s">Copyright &copy; 2022 <br><b>Great People
+								Trainee Program XIV</b>
+							</p>
 					</div>
 				</div>
 			</div>
@@ -409,7 +428,7 @@ http://www.templatemo.com/tm-486-new-event
 	<!-- Back top -->
 	<a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
 
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal fade" id="myModalx" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-body">
@@ -417,6 +436,32 @@ http://www.templatemo.com/tm-486-new-event
 			</div><!-- /.modal-content -->
 		</div><!-- /.modal-dialog -->
 	</div><!-- /.modal -->
+	<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <center>
+					<img class="img img-responsive" src="images/ticket.png" alt="">
+					<h3 style="font-weight: 700;">Dapatkan Tiket Talkshow!</h3>
+					<p>Tiket Talkshow didapatkan dengan cara berdonasi. <br/>
+					Link Talkshow akan dikirimkan via email yang terdaftar dalam form konfirmasi. </p>
+				</center>
+      </div>
+      <div class="modal-footer">
+				<center>
+					<button type="button cursoron" class="btn btn-primary" style="background-color: #456ADC!important;" onclick="location.href='charity.html'">Dapatkan tiket dengan berdonasi<span class="fa fa-chevron-right"
+						style="margin-left: 10px;" onclick=""></span></button>
+				</center>
+      </div>
+    </div>
+  </div>
+</div>
 	<!-- =========================
      SCRIPTS   
 ============================== -->

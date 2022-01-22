@@ -36,6 +36,7 @@ $(document).ready(function() {
     $('#detail').parallax("100%", 0.2);
     $('#video').parallax("100%", 0.3);
     $('#speakers').parallax("100%", 0.1);
+    $('#exhibition').parallax("100%", 0.2);
     $('#program').parallax("100%", 0.2);
     $('#register').parallax("100%", 0.1);
     $('#faq').parallax("100%", 0.3);
