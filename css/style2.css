@@ -361,7 +361,6 @@ footer {
 -----------------------------------------*/
 #overview img {
   position: relative;
-  padding-bottom: 32px;
 }
 
 
@@ -872,7 +871,7 @@ footer {
 @media (max-width: 760px) {
 
   #intro {
-    height: 100vh;
+    height: 200vh;
   }
 
 }
